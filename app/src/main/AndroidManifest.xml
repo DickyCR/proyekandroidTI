@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.windows10.kuis1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_wahana"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Umum" />
+        <activity android:name=".HallUtama" />
+        <activity android:name=".Zona" />
+        <activity android:name=".OpiniActivity" />
+        <activity android:name=".FasilitasWisata" />
+        <activity android:name=".activity_deskripsi" />
+        <activity android:name=".activity_gambar" />
+        <activity android:name=".activity_gambar2"/>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".HomeActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.windows10.kuis1.Zona">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#1E434C"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#1E434C"
+            android:orientation="vertical">
+
+
+            <Button
+
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="320dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:onClick="back"
+                android:text="@string/back"
+                android:textColor="#000"
+                android:textSize="12sp" /> //button kembali ke fasilitas wisata
+            <!--android:background="?attr/homeAsUpIndicator"-->
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#1E434C"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:src="@drawable/zonaedukasi"
+
+                />
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:src="@drawable/zonaeropa"
+
+                />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#1E434C"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/zonahollywood"
+
+            />
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/zonaistana"
+
+            />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#1E434C"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            >
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:src="@drawable/zonapasarapung"
+
+                />
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:src="@drawable/zonavegas"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

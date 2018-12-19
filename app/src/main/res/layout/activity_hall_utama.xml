@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.windows10.kuis1.HallUtama">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#1E434C"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#1E434C"
+            android:orientation="vertical">
+
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="320dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:onClick="back"
+                android:text="BACK"
+                android:textColor="#000"
+                android:textSize="12sp" /> //button kembali ke fasilitas wisata
+            <!--android:background="?attr/homeAsUpIndicator"-->
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1E434C"
+            android:text="LUASNYA HALL UTAMA"
+            android:layout_marginLeft="100dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#F0E68C"
+
+            />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="105dp"
+            android:src="@drawable/hallutama"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            />
+
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="135dp"
+            android:src="@drawable/hallutama2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1E434C"
+            android:text="          Ruangan ini adalah ruangan pertama di Museum Angkut yang akan dikunjungi setelah melewati garis Entrance oleh pengunjung.Di tempat ini terdapat berbagai koleksi mobil dari berbagai negara dan berbagai waktu, yang didukung dengan lampu-lampu eksotis sehingga menimbulkan kesan elegan.
+             Sungguh unik dan anda pasti terkesan dan kagum dengan koleksi terbaik di Malang ini. "
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#F0E68C"
+
+            />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

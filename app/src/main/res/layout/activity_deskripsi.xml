@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">//untuk membuat layout memiliki scrool kebawah dan keatas
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="0dp"
+        android:orientation="vertical">//layout yang tampilan konten yang sejajar dalam satu arah tertentu
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="151dp"
+            android:layout_weight="0.5"
+            android:background="#C99E10"
+            android:gravity="center"
+            android:src="@drawable/logo_wahana" /> //menampilkan gambar pada layout
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="MUSEUM ANGKUT"
+            android:textColor="#1E434C"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="0.1"
+            android:background="#C99E10"
+            /> //menampilkan text pada layout
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#8D230F"
+            android:gravity="center"
+            android:text="Museum Angkut Kota Batu Malang
+ merupakan salah satu kunjungan wisata yang bisa Anda nikmati di Batu Malang. Sama seperti namanya museum ini memamerkan berbagai koleksi sarana angkutan kuno dan modern baik di Indonesia maupun yang terkenal di dunia. Tapi musem angkut berbeda dari museum-museum yang lain karena jumlah koleksi di dalamnya sangat lengkap dari semua negara di dunia. Museum Angkut secara administratif berada di Kecamatan Batu, Kab Malang, Jawa Timur. Lebih tepatnya di Jl. Terusan Sultan Agung Atas no. 2 Kota Wisata Batu, malang, Jawa Timur. Museum Angkut adalah sebuah tempat wisata pertama di Asia Tenggara yang mengusung tema alat transportasi. Museum Angkut dikelola oleh Jawa Timur Park Group dan dibuka sejak 9 Maret 2014 dan menempati lahan seluas 3, 8 hektare. Museum alat transportasi ini menempati tempat outdoor dan indoor untuk memamerkan koleksinya. Di sini dipamerkan berbagai macam mobil, motor dan alat transportasi lain seperti mobil Presiden RI pertama Soekarno seri Chrysler Windsor Deluxe, kemudian juga ada motor-motor jaman dulu. Tidak ketinggalan mobil sport Porsche dan pembalap F1 tampil di zona ini. Becak-becak Nusantara, bemo, hingga kereta kuda juga ikut meramaikan zona edukasi di Museum Angkut ini. Museum Angkut memajang puluhan mobil antik seperti Alfa Romeo keluaran tahun 1966, Bentley tahun 1957, dan Chrysler Windsor Deluxe produksi 1952 dan lain-lain.          "
+            android:textColor="#FFFAF0"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+        <Button
+            android:id="@+id/kembali"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#9B4F0F"
+            android:textColor="#FFF8DC"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:text="KEMBALI" /> // button kembali ke home utama
+    </LinearLayout>
+</ScrollView>

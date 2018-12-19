@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.windows10.kuis1.FasilitasWisata">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#1E434C"
+        android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#1E434C"
+                android:orientation="vertical">
+
+
+                <Button
+
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/home"
+                    android:text="HOME"
+                    android:onClick="home"
+                    android:textColor="#ffff"
+                    android:textSize="12sp" /> // button home pada fasilitas wisata
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:src="@drawable/logo_wahana"
+                /> //gambar wahana yang ada di dalam Museum angkut
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85dp"
+                android:text="DAFTAR  FASILITAS "
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#C99E10"
+
+                />
+            <Button
+                android:id="@+id/umum"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:background="#9B4F0F"
+                android:text="FASILITAS UMUM" android:textColor="#fff" /> // button fasilitas Umum
+                <!--android:onClick="umum"-->
+
+
+
+            <Button
+                android:id="@+id/utama"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="10dp"
+                android:background="#9B4F0F"
+                android:text="HALL UTAMA" android:textColor="#fff"/> // button hall utama
+                <!--android:onClick="utama"-->
+
+
+            <Button
+                android:id="@+id/wahanaZona"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:background="#9B4F0F"
+                android:text="ZONA WAHANA" android:textColor="#fff" />  // button zona wahana
+                <!--android:onClick="wahana"-->
+
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

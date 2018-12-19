@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#008B8B"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtusername"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:textSize="24sp"
+            android:text="nama user"
+            android:gravity="center"/>
+
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@drawable/logo_wahana" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="MUSEUM ANGKUT"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:textColor="#8B0000"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/button_deskripsi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#C99E10"
+            android:textSize="20sp"
+            android:text="DESKRIPSI"/> //button deskripsi
+
+        <Button
+            android:id="@+id/button_fasilitas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#C2D6CD"
+            android:textSize="20sp"
+            android:text="FASILITAS"
+            />  //button fasilitas
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <Button
+            android:id="@+id/button_gambar1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#C2D6CD"
+            android:textSize="20sp"
+            android:text="GAMBAR"
+            /> //button gambar
+
+        <Button
+            android:id="@+id/button_opini"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#C99E10"
+            android:textSize="20sp"
+            android:text="OPINI"/>  //button opini
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <Button
+            android:id="@+id/button_googlemaps"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/maps1"/>  // button googlemaps
+    </RelativeLayout>
+
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:background="#0000ff"
+            android:text="Logout"
+            android:textColor="@android:color/white" />  // button logout
+    </LinearLayout>
+
+</LinearLayout>

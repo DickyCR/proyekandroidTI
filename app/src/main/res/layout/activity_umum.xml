@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.windows10.kuis1.Umum">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#1E434C"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#1E434C"
+            android:orientation="vertical">
+
+
+            <Button
+
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="320dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:onClick="back"
+                android:text="BACK"
+                android:textColor="#000"
+                android:textSize="12sp" /> //button kembali ke fasilitas wisata
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1E434C"
+            android:text="TEMPAT PARKIR LUAS"
+            android:layout_marginLeft="100dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#F0E68C"
+
+            />
+
+        <ImageView
+            android:layout_width="260dp"
+            android:layout_height="115dp"
+            android:src="@drawable/parkir"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1E434C"
+            android:text="TEMPAT IBADAH (Musholah)"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#F0E68C"
+
+            />
+
+        <ImageView
+            android:layout_width="260dp"
+            android:layout_height="115dp"
+            android:src="@drawable/musholah"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1E434C"
+            android:text="FASILITAS TOILET UMUM DAN DISABILITAS"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#F0E68C"
+
+            />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="110dp"
+            android:src="@drawable/toilet"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

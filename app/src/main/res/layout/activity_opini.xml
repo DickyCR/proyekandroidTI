@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/maroon"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OPINI OF VISITORS"
+        android:background="@color/wood"
+        android:textColor="@color/biru"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="130dp"
+        android:id="@+id/title"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/logo"
+        />
+
+    <!--opini terdiri dari gambar dan text-->
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/dik"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/image_dicky"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dicky~"
+        android:fontFamily="monospace"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/biru"
+        android:background="@color/wood"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/txt_dicky"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tempatnya bagus untuk berfoto, saran untuk kesana!!"
+        android:fontFamily="casual"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/biru"
+        android:background="@color/wood"
+        android:layout_below="@+id/txt_dicky"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/txt_dicky2"
+        />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/anang"
+        android:layout_below="@+id/image_dicky"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/image_anang"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anang~"
+        android:fontFamily="monospace"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/biru"
+        android:background="@color/wood"
+        android:layout_below="@+id/txt_dicky2"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/txt_anang"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tempat wisata yang sangat mendidik"
+        android:fontFamily="casual"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/biru"
+        android:background="@color/wood"
+        android:layout_below="@+id/txt_anang"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/txt_anang2"
+        />
+
+
+ />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/image_anang"
+        android:background="#C99E10"
+        android:text="HOME"
+        android:fontFamily="serif"
+        android:onClick="home"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/btn_home"
+        />  //button home opini
+
+
+
+</RelativeLayout>
